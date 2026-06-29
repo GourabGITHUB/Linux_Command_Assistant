@@ -23,13 +23,17 @@ and retrieves their usage documentation using `tldr`.
 Clone the repository.
 
 Install the required dependencies:
+```bash
 pip install -r requirements.txt
 
 Create a .env file in the root directory and add your API key:
+```bash
 GOOGLE_API_KEY=your_actual_api_key_here
 
 ## Usage
 
+Run the script by passing your intent as a string argument:
+```bash
 python main.py "How do I check my network interfaces?"
 
 ## How it works:
